@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Gallery with Lightbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Beautiful Image Gallery</h1>
+        </header>
+
+        <section class="gallery">
+            <div class="gallery-item" data-index="0">
+                <img src="images/nature.webp" alt="Nature Image">
+                <div class="overlay">
+                    <h3>Beautiful Nature</h3>
+                    <p>Serene landscape photography</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-index="1">
+                <img src="images/mountain.webp" alt="Mountain Image">
+                <div class="overlay">
+                    <h3>Majestic Mountains</h3>
+                    <p>Stunning mountain scenery</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-index="2">
+                <img src="images/ocean.webp" alt="Ocean Image">
+                <div class="overlay">
+                    <h3>Ocean Waves</h3>
+                    <p>Peaceful ocean views</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-index="3">
+                <img src="images/forest.webp" alt="Forest Image">
+                <div class="overlay">
+                    <h3>Enchanted Forest</h3>
+                    <p>Mystical forest paths</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-index="4">
+                <img src="images/city.webp" alt="City Image">
+                <div class="overlay">
+                    <h3>Urban Landscape</h3>
+                    <p>City skyline at dusk</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-index="5">
+                <img src="images/animal.webp" alt="Animal Image">
+                <div class="overlay">
+                    <h3>Wildlife</h3>
+                    <p>Beautiful animals in nature</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-index="6">
+                <img src="images/arcitec.webp" alt="Architecture Image">
+                <div class="overlay">
+                    <h3>Modern Architecture</h3>
+                    <p>Innovative building design</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-index="7">
+                <img src="images/travel.webp" alt="Travel Image">
+                <div class="overlay">
+                    <h3>Travel Adventure</h3>
+                    <p>Explore the world</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-index="8">
+                <img src="images/food.webp" alt="Food Image">
+                <div class="overlay">
+                    <h3>Culinary Delights</h3>
+                    <p>Delicious food photography</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Image Gallery &copy; 2023 | Created with HTML, CSS & JavaScript</p>
+        </footer>
+    </div>
+
+   
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightbox-image">
+        </div>
+        <div class="lightbox-nav">
+            <button class="lightbox-prev" id="lightbox-prev">&#10094;</button>
+            <button class="lightbox-next" id="lightbox-next">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
